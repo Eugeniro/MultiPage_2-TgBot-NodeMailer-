@@ -1431,6 +1431,7 @@ p {
   border: 1px solid white;
   border-radius: 5px;
   cursor: pointer;
+  text-align: center;
 }
 .question_body_item_form .question_body_item_form_sro:hover {
   border: 1px solid #F08723;
@@ -1903,7 +1904,7 @@ p {
 }
 
 .documents_body_container {
-  padding: 100px 80px 30px;
+  padding: 0px 80px 30px;
   background-image: url(../media/docItemBg.webp);
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -1945,7 +1946,7 @@ p {
 }
 @media (max-width: 1020px) {
   .documents_body_container {
-    padding: 100px 20px;
+    padding: 0px 20px 100px;
   }
   .documents_body_container_text {
     max-height: none;
@@ -1958,7 +1959,7 @@ p {
     font-size: 28px;
   }
   .documents_body_container {
-    padding: 100px 20px 130px;
+    padding: 0px 20px 130px;
     background-size: contain;
   }
   .documents_body_container_text > p {
