@@ -1262,6 +1262,7 @@ p {
   border: 1px solid white;
   border-radius: 5px;
   cursor: pointer;
+  text-align: center;
 }
 .question_body_item_form .question_body_item_form_sro:hover {
   border: 1px solid #F08723;
